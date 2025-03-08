@@ -1,0 +1,11 @@
+
+
+# 暴露所有 Actuator 端点
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+  endpoint:
+    health:
+      show-details: always
